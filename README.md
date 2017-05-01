@@ -82,4 +82,4 @@ There many other Github repositories containing VAST samples.  This project is u
 
 These are scripts to create the video creatives and pixels from scratch using [FFmpeg](//ffmpeg.org/) and [ImageMagick](//www.imagemagick.org).  This avoids any complications over creative copyright.
 
-The source code is [available on Github](//github.com/myadserver), however only [myadserver.github.io/test1](//myadserver.github.io) is needed to use the service.
+The source code is [available on Github](//github.com/myadserver), however only [myadserver.github.io](//myadserver.github.io) is needed to use the service.
