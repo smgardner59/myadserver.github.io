@@ -23,7 +23,7 @@ Ad Tag | Description | Google VSuite Validator | SpringServe Validator
 [VAST 2.0 Wrapper (x2)](vast2_wrapper2.xml) | Double Wrapper VAST 2.0, redirecting to Single Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper2.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper2.xml&player=html5&start=1)
 [VAST 2.0 Wrapper (x3)](vast2_wrapper3.xml) | Treble Wrapper VAST 2.0, redirecting to Double Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper3.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper3.xml&player=html5&start=1)
 [VAST 2.0 Wrapper (x4)](vast2_wrapper4.xml) | Quadruple Wrapper VAST 2.0, redirecting to Treble Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper4.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper4.xml&player=html5&start=1)
-[VAST 2.0 Wrapper (x5)](vast2_wrapper5.xml) | It is likely that a VAST player will exceed the number of redirects | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper5.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper5.xml&player=html5&start=1)
+[VAST 2.0 Wrapper (x5)](vast2_wrapper5.xml) | It is likely that a VAST player will error due to excessive redirects | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper5.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper5.xml&player=html5&start=1)
 [VAST 2.0 No Ad](vast2_noad.xml) | Empty VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_noad.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_noad.xml&player=html5&start=1)
 [VAST 2.0 Wrapper to 404](vast2_wrapper_404.xml) | 404 File Not Found | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper_404.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper_404.xml&player=html5&start=1)
 [VAST 3.0 Linear](vast3_linear.xml) | Simple, Linear VAST 3.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_linear.xml) | [Validate](http://tools.springserve.com/tagtest?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_linear.xml&player=html5&start=1)
@@ -35,7 +35,7 @@ Ad Tag | Description | Google VSuite Validator | SpringServe Validator
 The samples included in this project attempt to follow IAB & industry best practice.
 - Care has been taken to ensure tags, pixels and creatives work in both HTTP and HTTPS
 - Video creatives have been encoded following the latest IAB Digital Video Best Practices
-- Relative URLs have been used where appropriate
+- Where appropriate, relative URLs have been used
 
 #### Limitations - CORS
 
@@ -56,7 +56,7 @@ On modern web-browsers, a wildcard no longer works if `Access-Control-Allow-Cred
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Credentials: true
 ```
-As Github Pages provides no control over the CORS headers, your mileage may vary depending on the browser and the player implementation.  Please be sure to check your browser logs.
+As Github Pages provides no control over the CORS headers, your mileage may vary depending on the browser and the player implementation.  Please be sure to check your browser logs in case of excessive CORS errors.
 
 
 #### FAQ
@@ -71,10 +71,17 @@ Wherever possible, all ad tags in this project try to use the relative // schema
 - If you call the ad tag via HTTPS, all media, pixels and URIs will be served over HTTPS.
 - If you call the ad tag via HTTP, all media, pixels and URIs will be served over HTTP.
 
+##### What gives with the colorbars?
+
+The creative is a 440kHz Tone with [SMTPE Colorbars](//ieeexplore.ieee.org/document/7291245/).  The audio is passed through a BS-1770 Audio Volume analysis and is adjusted to ATSC A/85 (-24 LUFS).  The colorbars are generated at 1920x1080 and subsequently downscaled to:
+- 640x360 IAB Low, at ~700kbps suitable for mobile 3G/4G/LTE.  H.264 Baseline profile, Level 3.0
+- 960x540 IAB Med, at ~1200kbps suitable for embedded desktop experience.  H.264, High profile, Level 4.0
+- 1280x720 IAB High at ~2200kbps suitable for OTT devices and full-screen desktop.  H.264, High profile, Level 4.0
+
 
 ##### But isn't this project just a rip-off of the [IAB TechLabs Sample Pages](//github.com/InteractiveAdvertisingBureau/VAST_Samples)?
 
-No. The excellent VAST 2.0/3.0/4.0 examples hosted by the IAB TechLabs Team are stored at GitHub.com, but are not usable as-is.  This project seeks to address this by hosting on Github Pages (aka github.io).
+No. The excellent VAST 2.0/3.0/4.0 samples hosted by the IAB TechLabs Team are stored at GitHub.com, but are not usable as-is.  This project seeks to address this by hosting on Github Pages (aka github.io) so the the VAST files are ready to serve.
 
 There many other repositories containing excellent VAST samples.  This project is unique in that it hosts the VAST Samples using Github Pages and relative URLs, rather than present a list of VAST XML files which cannot be used directly.
 
