@@ -6,8 +6,9 @@
 # enhance the script to use pngquant https://pngquant.org/
 
 # Create the image to use as a favicon source.  We'll use FFmpeg's colorbars.
-ffmpeg -f lavfi -i "smptehdbars=size=512x512" -vframes 1 source-512x512.png
-SOURCE="source-512x512.png"
+ffmpeg -f lavfi -i "smptehdbars=size=1920x1080" -vframes 1 source-1920x1080.png
+magick source-1920x1080.png -gravity Center -extent 1080x1080 source-1080x1080.png
+SOURCE="source-1080x1080.png"
 
 # Create favicons for each platform
 magick $SOURCE -resize 16x16 -colors 256 ../favicons/favicon-16.png

@@ -3,9 +3,13 @@
 	<Ad id="vast2_wrapper3">
 		<Wrapper>
 			<AdSystem>myadserver</AdSystem>
-			<VASTAdTagURI><![CDATA[//myadserver.github.io/vast2_wrapper2.xml]]></VASTAdTagURI>
+			<VASTAdTagURI>
+				<![CDATA[//myadserver.github.io/vast2_wrapper2.xml]]>
+			</VASTAdTagURI>
 			<Description></Description>
-			<Impression><![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper3&vastevent=Impression]]></Impression>
+			<Impression>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper3&vastevent=Impression]]>
+			</Impression>
 			<Error>
 				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper3&vastevent=Error]]>
 			</Error>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This crossdomain.xml is used for flash ads.  It will be deprecated mid 2017-->
+<!--This crossdomain.xml is only used for Flash ads.  It will be deprecated mid 2017-->
 <cross-domain-policy>
   <site-control permitted-cross-domain-policies="all"/>
   <allow-access-from domain="*" secure="false"/>

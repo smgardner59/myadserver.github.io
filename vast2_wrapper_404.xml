@@ -3,7 +3,9 @@
 	<Ad id="vast2_wrapper_404">
 		<Wrapper>
 			<AdSystem>myadserver</AdSystem>
-			<VASTAdTagURI><![CDATA[//myadserver.github.io/404]]></VASTAdTagURI>
+			<VASTAdTagURI>
+				<![CDATA[//myadserver.github.io/404]]>
+			</VASTAdTagURI>
 			<Description></Description>
 			<Impression>
 				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper_404&vastevent=Impression]]>
