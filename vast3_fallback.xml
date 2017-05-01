@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="vast3_draft.xsd">
+
+  <Ad id="vast3_fallback">
+    <Wrapper fallbackOnNoAd="true">
+      <AdSystem>myadserver</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[//myadserver.github.io/404]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+      </Error>
+    </Wrapper>
+  </Ad>
+  <Ad id="vast3_fallback">
+    <Wrapper fallbackOnNoAd="true">
+      <AdSystem>myadserver</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[//myadserver.github.io/vast3_noad.xml]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+      </Error>
+    </Wrapper>
+  </Ad>
+  <Ad id="vast3_fallback">
+    <Wrapper>
+      <AdSystem>myadserver</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[//myadserver.github.io/vast3_linear.xml]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+      </Error>
+    </Wrapper>
+  </Ad>
+</VAST>

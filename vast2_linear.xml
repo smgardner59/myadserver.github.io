@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0.1" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="vast_2.0.1.xsd">
+	<Ad id="vast2_inline">
+		<InLine>
+			<AdSystem>myadserver</AdSystem>
+			<AdTitle>myadserver</AdTitle>
+			<Description></Description>
+			<Impression>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=Impression]]>
+			</Impression>
+			<Error>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=Error&errorcode=[ERRORCODE]]]>
+			</Error>
+			<Creatives>
+				<Creative sequence="1" id="smpte colorbars">
+					<Linear>
+						<Duration>00:00:15.220</Duration>
+						<VideoClicks>
+							<ClickThrough>
+								<![CDATA[//myadserver.github.io/creatives/landingpage.html]]>
+							</ClickThrough>
+							<ClickTracking>
+								<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=ClickTracking]]>
+							</ClickTracking>
+						</VideoClicks>
+						<MediaFiles>
+							<MediaFile id="iab_low" delivery="progressive" width="640" height="360" type="video/mp4" codecs="avc1.42001e,mp4a.40.2" bitrate="700">
+								<![CDATA[//myadserver.github.io/creatives/smptehdbars_360p.mp4]]>
+							</MediaFile>
+							<MediaFile id="iab_med" delivery="progressive" width="960" height="540" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="1200">
+								<![CDATA[//myadserver.github.io/creatives/smptehdbars_540p.mp4]]>
+							</MediaFile>
+							<MediaFile id="iab_hgh" delivery="progressive" width="1280" height="720" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="2400">
+								<![CDATA[//myadserver.github.io/creatives/smptehdbars_720p.mp4]]>
+							</MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>

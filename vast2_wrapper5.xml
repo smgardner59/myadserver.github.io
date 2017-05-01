@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0.1" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="vast_2.0.1.xsd">
+	<Ad id="vast2_wrapper5">
+		<Wrapper>
+			<AdSystem>myadserver</AdSystem>
+			<VASTAdTagURI><![CDATA[//myadserver.github.io/vast2_wrapper1.xml]]></VASTAdTagURI>
+			<Description></Description>
+			<Impression><![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper5&vastevent=Impression]]></Impression>
+			<Error>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper5&vastevent=Error&errorcode=[ERRORCODE]]]>
+			</Error>
+		</Wrapper>
+	</Ad>
+</VAST>
