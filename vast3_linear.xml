@@ -24,14 +24,20 @@
 							</ClickTracking>
 						</VideoClicks>
 						<MediaFiles>
-							<MediaFile id="iab_low" delivery="progressive" width="640" height="360" type="video/mp4" codecs="avc1.42001e,mp4a.40.2" bitrate="700" maintainAspectRatio="true">
+							<MediaFile id="iab_mp4_low" delivery="progressive" width="640" height="360" scalable="true" maintainAspectRatio="true" type="video/mp4" codecs="avc1.42001e,mp4a.40.2" bitrate="700">
 								<![CDATA[//myadserver.github.io/creatives/smptehdbars_360p.mp4]]>
 							</MediaFile>
-							<MediaFile id="iab_med" delivery="progressive" width="960" height="540" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="1200" maintainAspectRatio="true">
+							<MediaFile id="iab_mp4_med" delivery="progressive" width="960" height="540" scalable="true" maintainAspectRatio="true" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="1200">
 								<![CDATA[//myadserver.github.io/creatives/smptehdbars_540p.mp4]]>
 							</MediaFile>
-							<MediaFile id="iab_hgh" delivery="progressive" width="1280" height="720" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="2400" maintainAspectRatio="true">
+							<MediaFile id="iab_mp4_hgh" delivery="progressive" width="1280" height="720" scalable="true" maintainAspectRatio="true" type="video/mp4" codecs="avc1.640028,mp4a.40.2" bitrate="2400">
 								<![CDATA[//myadserver.github.io/creatives/smptehdbars_720p.mp4]]>
+							</MediaFile>
+							<MediaFile id="iab_flv_low" delivery="progressive" width="640" height="360" scalable="true" maintainAspectRatio="true" type="video/x-flv" bitrate="700">
+								<![CDATA[//myadserver.github.io/creatives/smptehdbars_360p.flv]]>
+							</MediaFile>
+							<MediaFile id="iab_f4v_low" delivery="progressive" width="640" height="360" scalable="true" maintainAspectRatio="true" type="video/x-flv" bitrate="700">
+								<![CDATA[//myadserver.github.io/creatives/smptehdbars_360p.f4v]]>
 							</MediaFile>
 						</MediaFiles>
 					</Linear>
