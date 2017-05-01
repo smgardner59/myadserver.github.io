@@ -11,24 +11,23 @@ Please do not abuse this service, which is kindly hosted by Github
 - Do not link to any of the files other than [myadserver.github.io](//myadserver.github.io/).  Individual files are subject to change.
 - Please do not use these in your documentation.
 
+#### Sample VAST responses
 
-#### The sample VAST responses
-
-The sample VAST responses are provided as-is and without warranty.
+These sample VAST responses are provided as-is and without warranty.
 
 Ad Tag | | Google VSuite Validator
 ---|---|---
-[VAST 2.0 Linear](vast2_linear.xml) | Simple Linear VAST | [Preview]( //developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_linear.xml)
-[VAST 2.0 Wrapper (x1)](vast2_wrapper1.xml) | 1 Wrapper VAST, redirecting to simple Linear VAST | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper1.xml)
-[VAST 2.0 Wrapper (x2)](vast2_wrapper2.xml) | | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper2.xml)
-[VAST 2.0 Wrapper (x3)](vast2_wrapper3.xml) | | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper3.xml)
-[VAST 2.0 Wrapper (x4)](vast2_wrapper4.xml) | | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper4.xml)
+[VAST 2.0 Linear](vast2_linear.xml) | Simple, Linear VAST 2.0 | [Preview]( //developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_linear.xml)
+[VAST 2.0 Wrapper (x1)](vast2_wrapper1.xml) | Single Wrapper VAST 2.0, redirecting to Linear VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper1.xml)
+[VAST 2.0 Wrapper (x2)](vast2_wrapper2.xml) | Double Wrapper VAST 2.0, redirecting to Single Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper2.xml)
+[VAST 2.0 Wrapper (x3)](vast2_wrapper3.xml) | Treble Wrapper VAST 2.0, redirecting to Double Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper3.xml)
+[VAST 2.0 Wrapper (x4)](vast2_wrapper4.xml) | Quadruple Wrapper VAST 2.0, redirecting to Treble Wrapper VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper4.xml)
 [VAST 2.0 Wrapper (x5)](vast2_wrapper5.xml) | It is likely that a VAST player will exceed the number of redirects | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper5.xml)
-[VAST 2.0 No Ad](vast2_noad.xml) | Empty VAST | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_noad.xml)
+[VAST 2.0 No Ad](vast2_noad.xml) | Empty VAST 2.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_noad.xml)
 [VAST 2.0 Wrapper to 404](vast2_wrapper_404.xml) | 404 File Not Found | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast2_wrapper_404.xml)
-[VAST 3.0 Linear](vast3_linear.xml) | Simple VAST 3.0 Linear | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_linear.xml)
-[VAST 3.0 No Ad](vast3_noad.xml) | Empty VAST | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_noad.xml)
-[VAST 3.0 Fallback](vast3_fallback.xml) | Video Fallback through 404 & Empty VAST | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_fallback.xml)
+[VAST 3.0 Linear](vast3_linear.xml) | Simple, Linear VAST 3.0 | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_linear.xml)
+[VAST 3.0 No Ad](vast3_noad.xml) | Empty VAST 3.0, with [ERRORCODE]| [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_noad.xml)
+[VAST 3.0 Fallback](vast3_fallback.xml) | VAST 3.0 Video Fallback through 404 & Empty VAST | [Preview](//developers.google.com/interactive-media-ads/docs/sdks/html5/vastinspector?tag=https%253A%252F%252Fmyadserver.github.io%252Fvast3_fallback.xml)
 
 #### Notes
 
@@ -61,22 +60,22 @@ As Github Pages provides no control over the CORS headers, your mileage may vary
 
 #### FAQ
 
-##### Explain yourself
+##### Explain yourself...
 
-This project is a self-contained, working ad-server, hosted within Github Pages (Github.io).
+This project is a self-contained ad-server, hosted within Github Pages (Github.io).  By being hosted on Github Pages (rather than Github), URLs should work, MIME-types should be accurate.
 
 ##### What is all the //example.com all about?
 
 Wherever possible, all ad tags in this project try to use the relative // schema notation rather than http:// or //
-- If you call the ad tag via HTTPS, all media, pixels and files will be served over HTTPS.
-- If you call the ad tag via HTTP, all media, pixels and files will be served over HTTP.
+- If you call the ad tag via HTTPS, all media, pixels and URIs will be served over HTTPS.
+- If you call the ad tag via HTTP, all media, pixels and URIs will be served over HTTP.
 
 
 ##### But isn't this project just a rip-off of the [IAB TechLabs Sample Pages](//github.com/InteractiveAdvertisingBureau/VAST_Samples)?
 
-No. The excellent VAST 2.0/3.0/4.0 examples hosted by the IAB TechLabs Team are stored at GitHub.com, but are not usable as-is from Github Pages (aka github.io).
+No. The excellent VAST 2.0/3.0/4.0 examples hosted by the IAB TechLabs Team are stored at GitHub.com, but are not usable as-is.  This project seeks to address this by hosting on Github Pages (aka github.io).
 
-There many other Github repositories containing VAST samples.  This project is unique in that it aims to host the VAST Samples using Github Pages, rather than present a list of XML files in a repository which cannot be used directly.
+There many other repositories containing excellent VAST samples.  This project is unique in that it hosts the VAST Samples using Github Pages and relative URLs, rather than present a list of VAST XML files which cannot be used directly.
 
 #### What is the [build-scripts/](build-scripts) folder?
 
