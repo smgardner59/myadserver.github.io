@@ -9,7 +9,7 @@
 				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=Impression]]>
 			</Impression>
 			<Error>
-				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=Error&errorcode=[ERRORCODE]]]>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=Error]]>
 			</Error>
 			<Creatives>
 				<Creative sequence="1" id="smpte colorbars">
@@ -17,7 +17,7 @@
 						<Duration>00:00:15.220</Duration>
 						<VideoClicks>
 							<ClickThrough>
-								<![CDATA[//myadserver.github.io/creatives/landingpage.html]]>
+								<![CDATA[//myadserver.github.io/creatives/landingpage.html?utm_source=myadserver&utm_medium=instreamvideo&utm_campaign=smpte_colorbars]]>
 							</ClickThrough>
 							<ClickTracking>
 								<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_inline&vastevent=ClickTracking]]>

@@ -7,7 +7,7 @@
 			<Description></Description>
 			<Impression><![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper5&vastevent=Impression]]></Impression>
 			<Error>
-				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper5&vastevent=Error&errorcode=[ERRORCODE]]]>
+				<![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast2_wrapper5&vastevent=Error]]>
 			</Error>
 		</Wrapper>
 	</Ad>

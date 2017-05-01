@@ -8,7 +8,7 @@
         <![CDATA[//myadserver.github.io/404]]>
       </VASTAdTagURI>
       <Error>
-        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]&contentplayhead=[CONTENTPLAYHEAD]&asseturi=[ASSETURI]&cachebuster=[CACHEBUSTING]&contentplayhead=[CONTENTPLAYHEAD]&asseturi=[ASSETURI]&cachebuster=[CACHEBUSTING]]]>
       </Error>
     </Wrapper>
   </Ad>
@@ -19,7 +19,7 @@
         <![CDATA[//myadserver.github.io/vast3_noad.xml]]>
       </VASTAdTagURI>
       <Error>
-        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]&contentplayhead=[CONTENTPLAYHEAD]&asseturi=[ASSETURI]&cachebuster=[CACHEBUSTING]]]>
       </Error>
     </Wrapper>
   </Ad>
@@ -30,7 +30,7 @@
         <![CDATA[//myadserver.github.io/vast3_linear.xml]]>
       </VASTAdTagURI>
       <Error>
-        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]]]>
+        <![CDATA[//myadserver.github.io/pixels/1x1.png?ad=vast3_fallback&vastevent=Error&errorcode=[ERRORCODE]&contentplayhead=[CONTENTPLAYHEAD]&asseturi=[ASSETURI]&cachebuster=[CACHEBUSTING]]]>
       </Error>
     </Wrapper>
   </Ad>
