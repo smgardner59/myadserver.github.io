@@ -41,7 +41,7 @@
 							</MediaFile>
 						</MediaFiles>
 						<Icons>
-								 <Icon program="AdChoices" height="16" xPosition="right" yPosition="top">
+								 <Icon program="AdChoices" width="15" height="16" xPosition="0" yPosition="0" duration="00:00:10" offset="00:00:02">
 										 <StaticResource creativeType="image/png">
 												 <![CDATA[//upload.wikimedia.org/wikipedia/commons/d/d3/AdChoices_Icon.png]]>
 										 </StaticResource>
