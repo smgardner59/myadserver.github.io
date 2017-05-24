@@ -41,7 +41,7 @@
 							</MediaFile>
 						</MediaFiles>
 						<Icons>
-								 <Icon program="AdChoices" width="71" height="16" xPosition="0" yPosition="0" duration="00:00:13" offset="00:00:02">
+								 <Icon program="AdChoices" width="71" height="16" xPosition="right" yPosition="top" duration="00:00:13" offset="00:00:02">
 										 <StaticResource creativeType="image/png">
 												 <![CDATA[//myadserver.github.io/adchoices/adchoices_adchoices_71x16.png]]>
 										 </StaticResource>
