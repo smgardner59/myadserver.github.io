@@ -1,0 +1,1 @@
+These adchoices icons are provided for example and technical testing purposes ONLY and are not to be used in production.  Please contact the Digital Advertising Alliance (DAA) for full licensing terms. 
